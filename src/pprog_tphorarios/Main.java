@@ -42,7 +42,7 @@ public class Main {
         String linha;
 //        int i = 0;
         while (fi.hasNextLine()) {
-            fi.nextLine();
+            fi.nextLine(); //Avançar a linha do cabeçalho do ficheiro
             linha = fi.nextLine();
             partes = linha.split(";");
             for (int j = 0; j < partes.length; j++) {
